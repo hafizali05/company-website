@@ -1,0 +1,68 @@
+.hero {
+  background-color: #0b015b;
+  padding-bottom: 10vh;
+  height: 100%;
+  border-bottom: 10vh solid #703EFE;
+}
+
+.hero header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+
+}
+
+.hero h1 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14vw;
+  display: flex;
+  align-items: center;
+  color: white;
+  line-height: 98%;
+}
+.hero p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  margin-left: 10vw;
+  color: white;
+}
+
+.hero h1:nth-child(1) {
+  margin-left: 29vw;
+}
+.hero div {
+  display: flex;
+  align-items: center;
+  margin-left: 10vw;
+}
+.hero div h1 {
+  margin-left: 0 !important;
+}
+.hero h1:nth-child(3) {
+  margin-left: 37vw;
+}
+
+@media (max-width: 900px) {
+  .hero h1 {
+    display: none;
+  }
+  .hero div {
+    display: flex;
+    align-items: center;
+    margin-right: 16vw;
+  }
+  .hero p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 6vw;
+
+    line-height: 120%;
+  }
+}
