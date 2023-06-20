@@ -9,6 +9,11 @@
   max-width: 1500px;
   margin-inline: auto;
 }
+.companyName {
+  font-size: 30px; 
+  font-weight: bold;
+  padding: 20px
+}
 
 .mainNav {
   display: flex;

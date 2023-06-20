@@ -14,16 +14,9 @@ const NavBar = () => {
     <nav className={styles.nav}>
       <div className={`${styles.container} ${styles.mainNav}`}>
         {/* Desktop Nav */}
-        <div>
-          <Image
-            src="/logo.svg"
-            alt="Company Logo"
-            width={80}
-            height={80}
-            priority
-          />
+        <div className={styles.companyName}>
+          Ayletec
         </div>
-
         <div className={styles.navLinksContainer}>
           <ul className={styles.navLinks}>
             <li>

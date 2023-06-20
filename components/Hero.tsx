@@ -7,10 +7,7 @@ const Hero = () => {
       <div>
         <h1>Digital</h1>
         <p>
-          Goba is an agency with 10+ years of <br />
-          experience that has helped more than
-          <br />
-          300+ projects from small to large projects
+          Ayletec is an agency with hands on experience that has helped small to large projects.We also have several projects that can help your business
         </p>
       </div>
 

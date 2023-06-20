@@ -26,16 +26,16 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <NavBar />
-        <div className="home"/>
-        <Hero/>
+        <div className="home" />
+        <Hero />
         <LogoBox />
-        
+
         <DescBox
-        id={"about"}
+          id={"about"}
           headingOne={"ABOUT US"}
           headingTwo={"We Always<br/>Prioritize Quality<br/>And Unique Style"}
           desc={
-            "Goba is an agency with 10+ years of experience<br/>that has helped more than 300+ projects from<br/>small to large projects. We also have several<br/>projects that can help your business"
+            "Ayletec is an agency with hands on experience <br/> that has helped small to large projects.<br/> We also have several projects that can help your business"
           }
           button={"Contact Us"}
         />
@@ -48,7 +48,7 @@ export default function RootLayout({
           priority
         />
         <DescBox
-         id={"service"}
+          id={"service"}
           headingOne={"SERVICE"}
           headingTwo={
             "Provide The Best<br/>Offer According To<br/>Your Needs<br/>"
@@ -89,7 +89,7 @@ export default function RootLayout({
           />
         </section>
         <DescBox
-         id={"project"}
+          id={"project"}
           headingOne={"SERVICE"}
           headingTwo={"Some of The<br/>Projects We Have <br/>As Well<br/>"}
           desc={
