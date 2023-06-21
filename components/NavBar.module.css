@@ -10,9 +10,9 @@
   margin-inline: auto;
 }
 .companyName {
-  font-size: 30px; 
+  font-size: 30px;
   font-weight: bold;
-  padding: 20px
+  padding: 20px;
 }
 
 .mainNav {
@@ -68,6 +68,7 @@
   .hamburgerButton,
   .mainMobileMenu {
     display: block;
+    text-align: center;
   }
 
   .navLinksContainer {
