@@ -14,22 +14,20 @@ const NavBar = () => {
     <nav className={styles.nav}>
       <div className={`${styles.container} ${styles.mainNav}`}>
         {/* Desktop Nav */}
-        <div className={styles.companyName}>
-          Ayletec
-        </div>
+        <div className={styles.companyName}>Ayletec</div>
         <div className={styles.navLinksContainer}>
           <ul className={styles.navLinks}>
             <li>
-              <Link href="/#home">Home</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
               <Link href="#about">About</Link>
             </li>
             <li>
-              <Link href="/#service">Service</Link>
+              <Link href="#service">Service</Link>
             </li>
             <li>
-              <Link href="/#project">Project</Link>
+              <Link href="#project">Project</Link>
             </li>
           </ul>
           <button>Contact Us</button>
