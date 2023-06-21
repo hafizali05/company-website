@@ -13,7 +13,7 @@ const Hero = () => {
         </p>
       </div>
 
-      <h1>company</h1>
+      <h1>Agency</h1>
     </header>
   );
 };
